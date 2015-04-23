@@ -11,6 +11,7 @@ border: 1px double #adadad;
 }
 nav ul ul {
 	display: none;
+
 }
 
 	nav ul li:hover > ul {
@@ -18,6 +19,7 @@ nav ul ul {
 	}
 
 	nav ul {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	background: #efefef; 
 	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
 	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
@@ -30,6 +32,7 @@ nav ul ul {
 	display: inline-table;
 }
 	nav ul:after {
+		
 		content: ""; clear: both; display: block;
 	}
 
