@@ -1,6 +1,21 @@
+body {
+    background-image: url("t101.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
 .Info{
-padding-left: 20px;
-font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 26px;
+	background-color: white;
+	box-shadow: 1px 1px 10px #888888;
+	border-radius:3px;
+	opacity: 0.8;
+	margin: 5px 30px 30px 30px;
+
+  text-align: center
+
 }
 
 .line{
@@ -19,7 +34,7 @@ nav ul ul {
 	}
 
 	nav ul {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	background: #efefef; 
 	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
 	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
@@ -32,7 +47,6 @@ nav ul ul {
 	display: inline-table;
 }
 	nav ul:after {
-		
 		content: ""; clear: both; display: block;
 	}
 
