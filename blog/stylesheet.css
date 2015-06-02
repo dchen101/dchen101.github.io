@@ -6,15 +6,21 @@ body {
 
 }
 
-.Info{
-	font-size: 26px;
+.indented
+   {
+   padding-left: 50pt;
+   padding-right: 50pt;
+   }
+
+.blog{
+	font-size: 14px;
 	background-color: white;
 	box-shadow: 1px 1px 10px #888888;
 	border-radius:3px;
 	opacity: 0.8;
 	margin: 5px 30px 30px 30px;
 
-  text-align: center
+  text-align: left;
 
 }
 
